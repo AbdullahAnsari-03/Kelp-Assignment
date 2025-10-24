@@ -43,7 +43,7 @@ csvtojson/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd csvtojson
+   cd Kelp-Assignment
    ```
 
 2. **Install dependencies**
