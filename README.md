@@ -85,23 +85,24 @@ BATCH_SIZE=500
 5. **Prepare CSV file in data/users.csv with headers like:**
 - Place your CSV file in the `data/` directory or update `CSV_FILE_PATH` in `.env`
 ```bash
-name.firstName,name.lastName,age,address.line1,address.city,address.zip,department,joiningDate
-John,Doe,28,123 Main St,New York,10001,Engineering,2022-04-10
+name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender
+Rohit,Prasad,35,A-563 Rakshak Society,New Pune Road,Pune,Maharashtra,male
 ```
 Converted JSON:
 ```bash
 {
-  "name": "John Doe",
-  "age": 28,
-  "address": {
-    "line1": "123 Main St",
-    "city": "New York",
-    "zip": "10001"
+  "name": {
+    "firstName": "Rohit",
+    "lastName": "Prasad"
   },
-  "additional_info": {
-    "department": "Engineering",
-    "joiningDate": "2022-04-10"
-  }
+  "age": 35,
+  "address": {
+    "line1": "A-563 Rakshak Society",
+    "line2": "New Pune Road",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  "gender": "male"
 }
 ```
 🚀 Run Project
