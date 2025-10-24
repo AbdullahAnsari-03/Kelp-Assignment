@@ -1,0 +1,11 @@
+name.firstName,name.lastName,age,address.line1,address.city,address.zip,department,joiningDate
+John,Doe,22,123 Main St,New York,10001,Engineering,2022-04-10
+Jane,Smith,45,456 Elm St,Los Angeles,90001,Marketing,2021-11-15
+Mike,Johnson,31,789 Pine St,Chicago,60007,Sales,2023-01-20
+Sarah,Lee,29,12 River Rd,Miami,33010,Finance,2019-05-05
+David,Brown,55,98 Ocean Ave,Boston,02110,Management,2018-03-22
+Emma,Wilson,27,321 Oak St,San Francisco,94102,Engineering,2020-07-12
+Liam,Martinez,38,654 Maple Rd,Houston,77002,Sales,2017-09-30
+Olivia,Garcia,33,987 Cedar Ave,Seattle,98101,Marketing,2021-01-20
+Noah,Anderson,41,159 Pine Ln,Denver,80202,Finance,2016-11-05
+Ava,Thomas,26,753 Birch St,Atlanta,30303,Engineering,2022-02-15
