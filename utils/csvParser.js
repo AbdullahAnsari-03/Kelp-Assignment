@@ -1,11 +1,8 @@
-// utils/csvParser.js
-
 /**
  * Parse a CSV line into an array of values
  */
 function parseCSVLine(line) {
-  // Your existing parser logic here
-  return line.split(','); // example, adjust if you have quotes/commas
+  return line.split(',');
 }
 
 /**

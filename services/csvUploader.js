@@ -4,7 +4,7 @@ const pool = require('../db/connection');
 const { parseCSVLine, buildNestedObject } = require('../utils/csvParser');
 const { mapToDbRow } = require('../utils/dataMapper');
 
-const CSV_PATH = './data/users.csv'; // path to your CSV
+const CSV_PATH = './data/users.csv'; 
 const BATCH_SIZE = process.env.BATCH_SIZE ? parseInt(process.env.BATCH_SIZE) : 500; // batch size
 
 // Insert batch of users into PostgreSQL
