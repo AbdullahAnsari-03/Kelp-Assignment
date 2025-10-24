@@ -88,7 +88,22 @@ BATCH_SIZE=500
 name.firstName,name.lastName,age,address.line1,address.city,address.zip,department,joiningDate
 John,Doe,28,123 Main St,New York,10001,Engineering,2022-04-10
 ```
-
+Converted JSON:
+```bash
+{
+  "name": "John Doe",
+  "age": 28,
+  "address": {
+    "line1": "123 Main St",
+    "city": "New York",
+    "zip": "10001"
+  },
+  "additional_info": {
+    "department": "Engineering",
+    "joiningDate": "2022-04-10"
+  }
+}
+```
 🚀 Run Project
 ```bash
 node index.js
@@ -118,7 +133,5 @@ Reading CSV from: ./data/users.csv
 > 60 years  : 0.00%
 ------------------------------------
 ```
-
-
 ## Author
 **Made with ❤️ by Abdullah Ansari for Kelp Coding Challenge**
